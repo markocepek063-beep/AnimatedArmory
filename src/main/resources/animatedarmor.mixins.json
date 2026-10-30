@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.summerwaves.animatedarmor.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"EquipmentRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

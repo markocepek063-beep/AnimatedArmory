@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "animatedarmor",
+	"version": "${version}",
+	"name": "Animated Armor",
+	"description": "Lets resource packs animate worn armor and elytra textures (frames + a .png.mcmeta file).",
+	"authors": [
+		"Summer Waves"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"mixins": [
+		{
+			"config": "animatedarmor.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}
